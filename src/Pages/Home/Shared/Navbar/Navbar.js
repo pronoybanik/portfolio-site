@@ -5,7 +5,8 @@ const Navbar = () => {
 
     const MenuBar = <>
         <Link className='btn btn-ghost font-serif btn-sm font-bold text-white ' to="/">Home</Link>
-        <Link className='btn btn-ghost font-serif btn-sm font-bold text-white' to="myDetails">About</Link>
+        <Link className='btn btn-ghost font-serif btn-sm font-bold text-white' to="/myDetails">About</Link>
+        {/* <Link className='btn btn-ghost font-serif btn-sm font-bold text-white' to="/from">From</Link> */}
     </>
 
     return (
@@ -29,9 +30,9 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <label htmlFor="drawer-box" tabIndex={0} className="btn btn-ghost lg:hidden">
+                {/* <label htmlFor="drawer-box" tabIndex={0} className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </label>
+                </label> */}
 
             </div>
         </div>
