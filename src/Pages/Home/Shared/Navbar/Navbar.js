@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {  
+const Navbar = () => {
 
     const MenuBar = <>
         <Link className='btn btn-ghost font-serif btn-sm font-bold text-white ' to="/">Home</Link>

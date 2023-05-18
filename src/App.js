@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home';
 import MyDetails from './Pages/MyDetails/MyDetails';
 import From from './Pages/From/From';
 
+
 function App() {
   const routers = createBrowserRouter([
     {
@@ -23,7 +24,8 @@ function App() {
         {
           path: '/from',
           element: <From></From>
-        }
+        },
+       
       ]
     }
   ])
