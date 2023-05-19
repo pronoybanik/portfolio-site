@@ -15,7 +15,7 @@ import Mongo from '../../Asset/developement-logo/mongoose/icons8-mongodb-48.png'
 import Vercel from '../../Asset/developement-logo/Vercel/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67.png'
 import Netlify from '../../Asset/developement-logo/Netlify/download.png'
 import postgresql from '../../Asset/developement-logo/postgresql/download.png'
-
+import react from '../../Asset/developement-logo/react/download (1).png'
 
 
 const Skills = () => {
@@ -34,6 +34,11 @@ const Skills = () => {
         {
             name: "Javascript",
             img: js,
+            level: "Advance"
+        },
+        {
+            name: "React",
+            img: react,
             level: "Advance"
         },
         {
@@ -106,7 +111,7 @@ const Skills = () => {
     ]
 
     return (
-        <section id="SKILLS" className='container mx-auto mt-8 md:mt-20'>
+        <section id="skill" htmlFor='skill' className='container mx-auto mt-8 md:mt-20'>
             <div className="mb-[50px] sm:mb-[50px] flex flex-col items-start md:pl-10 mx-auto"
                 data-aos="fade-right" data-aos-duration="1000"
                 data-aos-easing="ease-in-cubic"
