@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import backgroundImage from '../../photo/istockphoto-1139459625-612x612.jpg'
-import resume from '../../Asset/pronoy banik Frontend.pdf'
+import backgroundImage from '../../Asset/istockphoto-1139459625-612x612.bb4d5cbf0baa2c1525ad.jpg'
+import resume from '../../Asset/cv/pronoy banik resume.pdf'
 
 const Header = () => {
     return (

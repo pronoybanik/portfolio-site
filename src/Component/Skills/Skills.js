@@ -111,7 +111,7 @@ const Skills = () => {
     ]
 
     return (
-        <section id="skill" htmlFor='skill' className='container mx-auto mt-8 md:mt-20'>
+        <section id="skill" className='container mx-auto mt-8 md:mt-20'>
             <div className="mb-[50px] sm:mb-[50px] flex flex-col items-start md:pl-10 mx-auto"
                 data-aos="fade-right" data-aos-duration="1000"
                 data-aos-easing="ease-in-cubic"
