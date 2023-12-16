@@ -16,6 +16,7 @@ import Vercel from '../../Asset/developement-logo/Vercel/68747470733a2f2f6173736
 import Netlify from '../../Asset/developement-logo/Netlify/download.png'
 import postgresql from '../../Asset/developement-logo/postgresql/download.png'
 import react from '../../Asset/developement-logo/react/download (1).png'
+import typescript from '../../Asset/developement-logo/typesript/download (1).png'
 
 
 const Skills = () => {
@@ -44,6 +45,11 @@ const Skills = () => {
         {
             name: "Redux",
             img: redux,
+            level: "Moderate"
+        },
+        {
+            name: "TypeScript",
+            img: typescript,
             level: "Moderate"
         },
         {
