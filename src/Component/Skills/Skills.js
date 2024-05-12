@@ -17,6 +17,7 @@ import Netlify from '../../Asset/developement-logo/Netlify/download.png'
 import postgresql from '../../Asset/developement-logo/postgresql/download.png'
 import react from '../../Asset/developement-logo/react/download (1).png'
 import typescript from '../../Asset/developement-logo/typesript/download (1).png'
+import angular from '../../Asset/developement-logo/anguler/icons8-angular-480.png'
 
 
 const Skills = () => {
@@ -53,7 +54,12 @@ const Skills = () => {
             level: "Moderate"
         },
         {
-            name: "Postgre SQL",
+            name: "Angular",
+            img: angular,
+            level: "Moderate"
+        },
+        {
+            name: "PostgreSQL",
             img: postgresql,
             level: "Moderate"
         },
