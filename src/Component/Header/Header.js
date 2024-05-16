@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundImage from '../../Asset/istockphoto-1139459625-612x612.bb4d5cbf0baa2c1525ad.jpg'
-import resume from '../../Asset/cv/PRONOY BANIK Resume.pdf'
+import resume from '../../Asset/cv/PRONOY BANIK Resume (1).pdf'
 
 const Header = () => {
     return (
@@ -17,8 +17,6 @@ const Header = () => {
                             <svg className="w-5 h-5 mr-2 hover:translate-y-1 duration-200 ease-linear" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                             <span className="relative">Download resume</span>
                         </a>
-
-
                     </div>
                 </div>
             </div>

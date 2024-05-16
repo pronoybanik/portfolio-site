@@ -205,9 +205,9 @@ const ProjectsCard = () => {
                                 }
                             </div>
                             <div className="flex gap-3 py-2 ">
-                                <a className='bg-black  p-1 rounded-lg' title='Live Site Link' target="_blank" href="https://voluble-basbousa-a85d24.netlify.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
+                                <a className='bg-black  p-1 rounded-lg' title='Live Site Link' target="_blank" href="https://anguler-e-commerce-project.vercel.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
                                 <a className='bg-black  p-1 rounded-lg' title='Git client Site' target="_blank" href="https://github.com/pronoybanik/Anguler-e-commerce-project" rel="noreferrer" aria-label="github-frontend"><FaGithub /></a>
-                                {/* <a className='bg-black  p-1 rounded-lg' title='Git server site' target="_blank" href="https://github.com/pronoybanik/mongoose-module-8-10" rel="noreferrer" aria-label="github-frontend"><FaGithub /></a> */}
+                                <a className='bg-black  p-1 rounded-lg' title='Git server site' target="_blank" href="https://github.com/pronoybanik/anguler-e-commer-server" rel="noreferrer" aria-label="github-frontend"><FaGithub /></a>
                             </div>
                         </div>
                     </div>
