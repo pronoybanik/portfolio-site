@@ -10,6 +10,7 @@ import img3 from '../../Asset/Screenshot 2023-08-14 213442.png'
 import img4 from '../../Asset/Screenshot 2023-11-02 190120.png'
 import img5 from '../../Asset/Screenshot 12.png'
 import img6 from '../../Asset/Screenshot 2024-05-12 105003.png'
+import img7 from '../../Asset/Screenshot 2024-07-01 111700.png'
 import express from '../../Asset/developement-logo/ex/download (1).png'
 import tailwind from '../../Asset/developement-logo/tailwind/download.png'
 import redux from '../../Asset/developement-logo/redux/download.png'
@@ -208,6 +209,30 @@ const ProjectsCard = () => {
                                 <a className='bg-black  p-1 rounded-lg' title='Live Site Link' target="_blank" href="https://anguler-e-commerce-project.vercel.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
                                 <a className='bg-black  p-1 rounded-lg' title='Git client Site' target="_blank" href="https://github.com/pronoybanik/Anguler-e-commerce-project" rel="noreferrer" aria-label="github-frontend"><FaGithub /></a>
                                 <a className='bg-black  p-1 rounded-lg' title='Git server site' target="_blank" href="https://github.com/pronoybanik/anguler-e-commer-server" rel="noreferrer" aria-label="github-frontend"><FaGithub /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* 8 */}
+                    <div className="w-[100%] border-[#ffffff83] border-[1px] h-[460px] rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] text-white mx-auto" data-aos="zoom-in-up"
+                        data-aos-delay="100"
+                        data-aos-duration="600"
+                        data-aos-easing="ease-in-out"
+                    >
+                        <div className="w-[100%]   h-full rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] bg-projectOne text-white mx-auto"> <img src={img7} className='h-full w-full' alt="" /> </div>
+                        <div className={`group p-2 absolute left-4 bottom-4 bg-white/20 backdrop-blur-md w-11/12 rounded-md  hover:duration-300 ease-in-out hover:h-[50%] hover:w-[100%] overflow-hidden hover:left-0 hover:bottom-0 `}>
+                            <h1 className="text-2xl py-4 font-semibold  font-serif uppercase text-black">Foodie Haven</h1>
+                            <p className={`text-xm font-semibold text-para hidden group-hover:block text-black `}>Foodie Haven: Indulge in a culinary journey at our web sanctuary. Explore delectable recipes, foodie tips, and a feast of gastronomic delights. Savor the flavor!</p>
+                            <div className="mt-4 hidden group-hover:flex flex-wrap items-center justify-start gap-4 mx-auto expertise  cursor-pointer">
+
+                                {
+                                    images.slice(2, 7).map((img, i) => <img key={i} src={img} alt="" className="w-5" />)
+                                }
+                            </div>
+                            <div className="flex gap-3 py-2">
+                                <a className='bg-black  p-1 rounded-lg' title='Live Site Link' target="_blank" href="https://continental-table.web.app/" rel="noreferrer" aria-label="live link" ><FaExternalLinkAlt /></a>
+                                <a className='bg-black  p-1 rounded-lg' title='Git client Site' target="_blank" href="https://github.com/pronoybanik/continental-table-frontend" rel="noreferrer" aria-label="github-frontend"><FaGithub /></a>
+                                <a className='bg-black  p-1 rounded-lg' title='Git server site' target="_blank" href="https://github.com/pronoybanik/continental-table-server" rel="noreferrer" aria-label="github-frontend"><FaGithub /></a>
                             </div>
                         </div>
                     </div>
