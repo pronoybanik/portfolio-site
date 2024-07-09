@@ -221,8 +221,10 @@ const ProjectsCard = () => {
                     >
                         <div className="w-[100%]   h-full rounded-md   relative bg-top bg-no-repeat bg-cover hover:bg-bottom ease-linear duration-[5000ms] bg-projectOne text-white mx-auto"> <img src={img7} className='h-full w-full' alt="" /> </div>
                         <div className={`group p-2 absolute left-4 bottom-4 bg-white/20 backdrop-blur-md w-11/12 rounded-md  hover:duration-300 ease-in-out hover:h-[50%] hover:w-[100%] overflow-hidden hover:left-0 hover:bottom-0 `}>
-                            <h1 className="text-2xl py-4 font-semibold  font-serif uppercase text-black">Foodie Haven</h1>
-                            <p className={`text-xm font-semibold text-para hidden group-hover:block text-black `}>Foodie Haven: Indulge in a culinary journey at our web sanctuary. Explore delectable recipes, foodie tips, and a feast of gastronomic delights. Savor the flavor!</p>
+                            <h1 className="text-2xl py-4 font-semibold  font-serif uppercase text-black"> CONTINENTAL TABLE RESTAURANT</h1>
+                            <p className={`text-xm font-semibold text-para hidden group-hover:block text-black `}>
+                                That is a   Restaurant web site , there has a lot Food . user can order her beloved Food
+                            </p>
                             <div className="mt-4 hidden group-hover:flex flex-wrap items-center justify-start gap-4 mx-auto expertise  cursor-pointer">
 
                                 {
@@ -236,6 +238,7 @@ const ProjectsCard = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </section>
         </div>
