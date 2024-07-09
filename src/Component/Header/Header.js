@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundImage from '../../Asset/istockphoto-1139459625-612x612.bb4d5cbf0baa2c1525ad.jpg'
-import resume from '../../Asset/cv/PRONOY BANIK Resume (1).pdf'
+import resume from '../../Asset/cv/my-cv.pdf'
 
 const Header = () => {
     return (
